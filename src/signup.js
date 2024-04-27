@@ -113,7 +113,7 @@ function SignUp() {
         />
         <input
           type="text"
-          placeholder="Username"
+          placeholder="User"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
