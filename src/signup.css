@@ -1,0 +1,86 @@
+/* Container */
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Sign-up form */
+.sign-up-form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.sign-up-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sign-up-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sign-up-form button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sign-up-form button:hover {
+  background-color: #0d8bf0;
+  color:#fff
+}
+
+.success-message {
+  color: green; /* Change the color to green or any other suitable color */
+  font-weight: bold; /* Make the message bold to make it stand out */
+  padding: 10px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Additional styles for link */
+.sign-up-form .login-link {
+  margin-top: 10px;
+  padding: 10px;
+  /*color: #1da1f2; /* Blue color */
+  cursor: pointer;
+}
+
+.sign-up-form .login-link a{
+  color: #1da1f2; /* Blue color */
+  text-decoration: none;
+}
+
+/* Style the link on hover */
+.sign-up-form .login-link:hover a {
+  color: #0d8bf0;
+  text-decoration: underline /* Darker blue on hover */
+}
+
+.twitter-logo {
+  width: 280px;
+  margin-bottom: 20px;
+  margin-right: 120px;
+}

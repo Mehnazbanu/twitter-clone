@@ -1,0 +1,27 @@
+/* Logout.css */
+
+.logout-button-container {
+    margin-top: 30px;
+  }
+  
+  .logout-button {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: 108px;
+    width: 150px;
+  }
+  
+  .logout-button:hover {
+    background-color: #05508e;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+  }

@@ -1,0 +1,69 @@
+/* PostDetails.css */
+
+/* Style for the container holding the post and comments */
+.postDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Style for each individual comment */
+  .comment {
+    width: 100%;
+    margin-top: 20px; /* Add more spacing between comments */
+    padding: 15px; /* Increase padding for better readability */
+    border-radius: 15px;
+    background-color: #f0f2f5; /* Light grey background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Style for the comment text */
+  .comment__text {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 10px; /* Add spacing between text and author */
+  }
+  
+  /* Style for the comment author */
+  .comment__author {
+    font-size: 14px;
+    font-weight: bold; /* Make author name bold */
+    color: #1da1f2; /* Twitter blue for author name */
+  }
+  
+  /* Style for the comment timestamp */
+  .comment__timestamp {
+    font-size: 12px;
+    color: #8899a6; /* Light grey text color */
+  }
+  
+  /* Style for the comment action buttons (e.g., like, reply) */
+  .comment__actions {
+    margin-top: 10px; /* Add spacing between comment text and actions */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the action button icons */
+  .comment__icon {
+    margin-right: 8px; /* Add spacing between icons */
+    font-size: 14px;
+    color: #8899a6; /* Light grey icon color */
+  }
+  
+  /* Style for the action button labels */
+  .comment__actionLabel {
+    font-size: 14px;
+    color: #8899a6; /* Light grey text color */
+  }
+  
+  /* Style for the divider between comments */
+  .comment-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #d3d3d3; /* Light grey divider color */
+    margin-top: 20px; /* Add spacing between comments */
+    margin-bottom: 20px; /* Add spacing between comments */
+  }

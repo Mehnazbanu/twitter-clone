@@ -1,0 +1,120 @@
+.searchmain-layout {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%; /* Stretch to full page */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-container {
+    flex: 1; /* Profile content width */
+    margin: 0 20px; /* Add some spacing between sidebar and profile */
+  }
+  
+  .profile {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .tweetprofile {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .profile__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile__info {
+    margin-bottom: 20px;
+  }
+  
+  .profile__info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .profile__info p {
+    color: #657786;
+    font-size: 16px;
+  }
+  
+  .profile__info button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .searchprofile__tweets {
+    border-top: 1px solid #e1e8ed;
+    padding-top: 20px;
+  }
+  
+  .tweet {
+    border-bottom: 1px solid #e1e8ed;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .tweet__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .tweet__content {
+    flex: 1;
+  }
+  
+  .tweet__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .tweet__icon {
+    margin-right: 10px;
+    color: #657786;
+    padding:5px
+  }
+  
+  .comments {
+    margin-top: 10px;
+    display:flex /* Indent comments */
+  }
+  
+  .comments p {
+    margin-bottom: 5px;
+  }
+
+  .post__badge {
+    font-size: 14px !important;
+    color: var(--twitter-color);
+  }
+
+  .follow-btn,
+  .following-btn {
+    background-color: transparent;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    border-radius: 999px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.following-btn:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+}

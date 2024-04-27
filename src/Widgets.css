@@ -1,0 +1,79 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widgets__input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+
+.widgets__searchIcon {
+  color: gray;
+}
+
+.widgets__dropdown {
+  /*width: calc(100% - 20px); /* Adjust width to match input width */
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+
+.widgets__dropdownItem {
+  display: flex;
+  align-items: center;
+  padding: 6px; /* Adjust padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.widgets__dropdownItem:hover {
+  background-color: #f5f8fa;
+}
+
+.widgets__dropdownItem .widgets__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent */
+}
+
+.widgets__dropdownItem .img {
+  width: 40px; /* Adjust avatar size */
+  height: 40px; /* Adjust avatar size */
+  border-radius: 50%;
+}
+
+.widgets__dropdownItem div {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgets__dropdownItem .displayName {
+  font-weight: bold; /* Make display name bold */
+  padding-left: 10px;
+}
+
+.widgets__dropdownItem .username {
+  color: #657786; /* Set username color to grey */
+  padding-left: 10px;
+}
+
+.widgets__widgetContainer {
+  margin-top: 20px;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}

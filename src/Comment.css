@@ -1,0 +1,55 @@
+.comment {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+  }
+  
+  .comment__avatar {
+    margin-right: 15px;
+  }
+  
+  .comment__user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment__displayName {
+    font-weight: 600;
+  }
+  
+  .comment__username {
+    color: gray;
+    margin-left: 7px;
+  }
+  
+  .comment__content {
+    flex: 1;
+    margin-top: 5px; /* Added margin-top */
+    margin-left: 10px; /* Added margin-left */
+  }
+  
+  .comment__text {
+    font-size: 15px;
+  }
+  
+  .comment__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .comment__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .comment__icon {
+    color: gray;
+  }
+  
+  .comment__verifiedIcon {
+    color: var(--twitter-color);
+  }
